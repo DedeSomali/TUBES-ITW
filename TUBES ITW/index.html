@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+  <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="ASSET/IMAGES/icon.png"/>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DEDE YUSUP.S</title>
+	<link rel="stylesheet" href="CSS/index.css">
+	<script src="JS/jquery-3.1.1.js"></script>
+<script> 
+$(document).ready(function(){ 
+	$("h3").click(function(){ 
+		$("#photo,#photoText","photo2").slideToggle("slow"); 
+	}); 
+	$('.link a').on('click', function(){
+var hrefA = $(this).attr('href');
+$('body').animate({
+	scrollTop: $(hrefA).offset().top - 98
+	}, 900, 'swing');
+	});
+		$("#submit").click (function(){
+		alert("Log-In Succes!");
+	});
+});
+</script>
+<style>
+#photoText,h3 { 
+	padding: 5px; 
+	text-align: center; 
+	background-color: #999; 
+	border: solid 1px #c3c3c3; 
+} 
+</style>
+</head>
+<body>
+	
+	<div id="topbar">
+	<div class="Lstript">
+				<a>Stript</a>
+			</div>
+	<div class="Rstript">
+				<a>Stript</a>
+			</div>
+		<div id="topnav">
+		<ul class="link">
+			<li class="current"><a href="#login">Log-IN</a></li>
+			<li class="page-scroll"><a href="#about">ABOUT</a>
+			</li>
+			<li class="page-scroll"><a href="#skill">SKILL</a></li>
+			<li class="page-scroll"><a href="#portfolio">PORTOFOLIO</a></li>
+			<li class="contact"><a>CONTACT ME:</a></li>
+		</ul>
+		<ul class="social">
+			<li>
+				<a href="https://www.facebook.com/zimix.covraz?lst=100003339183663%3A100003339183663%3A1482983609">
+					<img src="ASSET/IMAGES/facebook.png">
+				</a>
+			</li>
+			<li>
+				<a href="https://twitter.com/dedesomali">
+					<img src="ASSET/IMAGES/twitter.png">
+				</a>
+			</li>
+			<li>
+				<a href="https://plus.google.com/106589529050378423924">
+					<img src="ASSET/IMAGES/gplus.png">
+				</a>
+			</li>
+		</ul>
+		</div>
+		<div id="submenu">
+			<div class="search">
+				<form>
+					<input type="text" class="searchtext" name="search" placeholder="Search...">
+					<input type="submit" class="searchsubmit" name="submit" value="search">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<div id="page-wrap">
+		<div id="content">
+			<h1>HELLO I AM Dede</h1><br>
+			<p>Ini Adalah Website Pertama Saya!</p>
+			<p>Tanggal Pembuatan 28/12/2016</p>
+			<p>Cipongkor, Jawa Barat, Indonesia.</p>
+  		<br>
+  		<section class="about" id=about>
+  		<h2 class="about">About</h2>
+		<hr class="garis">
+		<br>
+		<br>
+<table class="table" border="1" cellspacing="0" cellpadding="10" >
+	<tr>
+		<td>Nama</td>
+		<td>:</td>
+		<td width="80%">DEDE YUSUP SOMALI</td>
+	</tr>
+
+	<tr>
+		<td width="40%">Tempat Tanggal Lahir</td>
+		<td>:</td>
+		<td>Bandung 26 Januari 1999</td>
+	
+	<tr>
+		<td width="30%">Jenis Kelamin</td>
+		<td>:</td>
+		<td>Laki-Laki</td>
+	</tr>
+
+	<tr>
+		<td width="30%">Golongan Darah</td>
+		<td>:</td>
+		<td>O</td>
+	</tr>
+	
+	<tr>
+		<td>Agama</td>
+		<td>:</td>
+		<td>Islam</td>
+	</tr>
+
+	<tr>
+		<td>Alamat</td>
+		<td>:</td>
+		<td>Kp.Cimega. Rt 02 Rw 06. Desa Sarinagen. Kecamatan Cipongkor. Bandung Barat. 40764. Jawa barat. Indonesia</td>
+	</tr>
+
+	<tr>
+		<td width="50">Pendidikan Formal</td>
+		<td width="1%">:</td>
+		<td><li>SDN SARINAGEN</li><br><br><li>SMPN 2 CIPONGKOR</li><br><br><li>SMAN 1 CIPONGKOR</li><br>
+		<br><li>UNIVERSITAS PASUNDAN</li></td>
+	</tr>
+
+	</table>
+	<br><br>
+		<section class="skill" id=skill>
+		<h2 class="skill">Skill</h2>
+		<hr class="garis2">
+		<br>
+		<br>
+		<img src="ASSET/IMAGES/skill.png" width="925">
+		<br> <br> <br>
+		<li>JQUERY 30%</li><br>
+		<li>HTML 25%</li><br>
+		<li>CSS 20%</li><br>
+		</section>
+  		<section class="portfolio" id=portfolio>
+  		<h2 class="portofolio">Portofolio</h2>
+		<hr class="garis3">
+		<br>
+		<br>
+  		<div>
+  		<img src="ASSET/IMAGES/portfolio.png" width="925">
+  		<br><br>
+  		<li>Mendapatkan beberapa sertifikat code.org</li><br>
+		<li>Bergabung Program Windows Insider Mobile</li><br>
+		<li>Bergabung Program Windows Insider PC</li><br>
+		<li>Pro dalam beberapa game Google Play Store</li><br><br>
+  		</div>
+  		</section>
+  		<section class="login" id=login>
+  		<h2 class="login">Log-in</h2>
+  		<font face="arial">
+<table border="1" cellspacing="0" cellpadding="10" >
+	<tr>
+		<td bgcolor="#1BA1E2" colspan="3"></td>
+	</tr>
+	
+	<tr>
+		<td>Username</td>
+		<td>:</td>
+		<td><form>
+			<input type="text" name="Username"></td>
+	</tr>
+
+	<tr>
+		<td>Password</td>
+		<td>:</td>
+		<td><form>
+			<input type="Password" name="Password"></td>
+			<tr>
+		<td colspan="3" align="right"><form>
+	<input id="submit" type="submit" name="Log-in" value="Log-in"/><br></a></td>
+	</tr>
+	</tr>
+	</form>
+	</table>
+	</section>
+  		</div> 
+		<div id="sidebar">
+			<h3>My Photo</h3>
+			<div id="photo">
+			<img src="ASSET/IMAGES/home5.jpg" width="190" height="300" alt="My Photo" title="Dede Yusup .S"></td><br><div><br><br></div>
+			<img src="ASSET/IMAGES/home3.jpg" width="190" height="300" alt="My Photo" title="Dede Yusup .S"></td><br><div><br><br></div>
+			<img src="ASSET/IMAGES/home4.jpg" width="190" height="300" alt="My Photo" title="Dede Yusup .S"></td><br><div><br><br></div>
+			<img src="ASSET/IMAGES/home2.jpg" width="190" height="300" alt="My Photo" title="Dede Yusup .S"></td><br><div></div>
+			</div>
+			<div id="photoText">Cililin, Jawa Barat, Indonesia.</div>
+		</div>
+		
+		
+		<div class="clear"></div>
+	</div>
+
+	<div id="footer">
+		<span>Copyright &copy; 2017. Dede Yusup Somali. Universitas Pasundan Bandung</span>
+	</div>
+
+</body>
+</html>
